@@ -35,6 +35,3 @@ npm test
 ```bash
 docker-compose up --build
 ```
-
-## License
-MIT
