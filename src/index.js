@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const morgan = require('morgan');
 const cors = require('cors');
 const rateLimiter = require('./middleware/rateLimiter');
+const tokenValidater = require('./middleware/auth');
 
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/authRoutes');
@@ -21,9 +22,9 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 app.use('/api/auth', authRoutes);
-app.use('/api/tasks', taskRoutes);
-app.use('/api/projects', projectRoutes);
-app.use('/api/stats', statsRoutes);
+app.use('/api/tasks', tokenValidater, taskRoutes);
+app.use('/api/projects', tokenValidater, projectRoutes);
+app.use('/api/stats', tokenValidater, statsRoutes);
 setupSwaggerDocs(app);
 
 app.get('/', (req, res) => res.send('Task Manager API'));
