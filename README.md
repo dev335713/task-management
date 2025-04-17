@@ -7,7 +7,6 @@ This is a full-featured Task Manager API built with Node.js, Express, and MongoD
 ```bash
 git clone <repo-url>
 cd task-manager-api
-cp .env.example .env
 npm install
 npm run dev
 ```

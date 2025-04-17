@@ -1,0 +1,607 @@
+{
+	"info": {
+		"_postman_id": "0d0c6add-e529-4a62-9c41-4a3a77f02615",
+		"name": "Task Manager API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12292140",
+		"_collection_link": "https://speeding-robot-406785.postman.co/workspace/Parrotpos~adbc39dd-e890-4aca-94ed-434186800157/collection/12292140-0d0c6add-e529-4a62-9c41-4a3a77f02615?action=share&source=collection_link&creator=12292140"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\"\n}"
+				},
+				"url": "{{dev_url}}/api/auth/register"
+			},
+			"response": [
+				{
+					"name": "Register User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": "{{dev_url}}/api/auth/register"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 17 Apr 2025 17:42:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "212"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"127-TwFvrfPpJbMjoGK3Dta4m6ePMVA\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "9c1cc5b4-a624-464c"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "100"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "95"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1744912442"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "931db8218942338a-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"user\": {\n        \"name\": \"John Doe\",\n        \"email\": \"john@example.com\",\n        \"password\": \"$2a$10$aVnytrnOFuOpWDvQuzye6uQZibiCSy//ZZwZ7afZ1F0Ubk5NbNIle\",\n        \"role\": \"user\",\n        \"activityLogs\": [],\n        \"_id\": \"68013d85a0f136679f48cef8\",\n        \"createdAt\": \"2025-04-17T17:42:29.990Z\",\n        \"updatedAt\": \"2025-04-17T17:42:29.990Z\",\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Login User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\"\n}"
+				},
+				"url": "{{dev_url}}/api/auth/login"
+			},
+			"response": [
+				{
+					"name": "Login User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"john@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": "{{dev_url}}/api/auth/login"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 17 Apr 2025 17:42:53 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "174"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"c6-kvpzpTKPAZFf5hOrfdt1OfK7bn0\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "c8a535f8-ddf5-41f1"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "100"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "94"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1744912442"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "931db8b32ba2338a-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MDEzZDg1YTBmMTM2Njc5ZjQ4Y2VmOCIsImlhdCI6MTc0NDkxMTc3MywiZXhwIjoxNzQ0OTk4MTczfQ.Jn6vXMwvsM_h9DI5puGQd1nuE2OonDgOrCiQQ1ha6j0\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"New Task\",\n  \"description\": \"This is a task\"\n}"
+				},
+				"url": "{{dev_url}}/api/tasks"
+			},
+			"response": [
+				{
+					"name": "Create Task",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"New Task\",\n  \"description\": \"This is a task\"\n}"
+						},
+						"url": "{{dev_url}}/api/tasks"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 17 Apr 2025 17:43:03 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "177"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"10b-RQ6Hrt1JEsQs7VPTFI20oL9ouqA\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "4008dabc-892d-4269"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "100"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "93"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1744912442"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "931db8f5dbf2338a-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"title\": \"New Task\",\n    \"description\": \"This is a task\",\n    \"status\": \"not started\",\n    \"priority\": \"medium\",\n    \"attachments\": [],\n    \"recurring\": \"none\",\n    \"dependencies\": [],\n    \"_id\": \"68013da7a0f136679f48cefb\",\n    \"createdAt\": \"2025-04-17T17:43:03.498Z\",\n    \"updatedAt\": \"2025-04-17T17:43:03.498Z\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Tasks",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"url": "{{dev_url}}/api/tasks"
+			},
+			"response": [
+				{
+					"name": "Get Tasks",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": "{{dev_url}}/api/tasks"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 17 Apr 2025 17:43:17 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "180"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"10d-i7E67U/HSCaT5IVGRXEEnYSvfCc\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "f8bd0c88-c606-46fa"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "100"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "92"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1744912442"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "931db9491daf338a-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"68013da7a0f136679f48cefb\",\n        \"title\": \"New Task\",\n        \"description\": \"This is a task\",\n        \"status\": \"not started\",\n        \"priority\": \"medium\",\n        \"attachments\": [],\n        \"recurring\": \"none\",\n        \"dependencies\": [],\n        \"createdAt\": \"2025-04-17T17:43:03.498Z\",\n        \"updatedAt\": \"2025-04-17T17:43:03.498Z\",\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Stats",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}"
+					}
+				],
+				"url": "{{dev_url}}/api/stats"
+			},
+			"response": [
+				{
+					"name": "Get Stats",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": "{{dev_url}}/api/stats"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 17 Apr 2025 17:43:25 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"2c-r7dO4EXEOAa48Dfc5avjPQosr6k\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "2582baae-3b87-49bb"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "100"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "91"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1744912442"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "931db97a2f42338a-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"total\": 1,\n    \"done\": 0,\n    \"pending\": 1,\n    \"overdue\": 0\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "dev_url",
+			"value": "https://task-management-7wop.onrender.com",
+			"type": "string"
+		}
+	]
+}
