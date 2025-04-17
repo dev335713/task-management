@@ -34,3 +34,5 @@ npm test
 ```bash
 docker-compose up --build
 ```
+
+## For Testing Purpose I had deployed it at https://task-management-7wop.onrender.com/
