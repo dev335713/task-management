@@ -1,0 +1,22 @@
+
+Task Manager API - Architecture Overview
+----------------------------------------
+
+Client <-----> Express API (Node.js)
+               |
+               |-- /api/auth (register/login)
+               |-- /api/tasks (CRUD tasks)
+               |-- /api/projects (CRUD projects)
+               |-- /api/stats (metrics)
+               |-- /api-docs (Swagger)
+
+               Middleware:
+                 - rateLimiter
+                 - auth
+
+               Models:
+                 - User
+                 - Task
+                 - Project
+
+               MongoDB Database
