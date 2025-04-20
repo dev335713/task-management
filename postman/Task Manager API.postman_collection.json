@@ -284,7 +284,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Thu, 17 Apr 2025 17:43:03 GMT"
+							"value": "Thu, 17 Apr 2025 18:38:18 GMT"
 						},
 						{
 							"key": "Content-Type",
@@ -292,7 +292,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "177"
+							"value": "178"
 						},
 						{
 							"key": "Connection",
@@ -308,11 +308,11 @@
 						},
 						{
 							"key": "etag",
-							"value": "W/\"10b-RQ6Hrt1JEsQs7VPTFI20oL9ouqA\""
+							"value": "W/\"10b-cVAentUooqC3HVhu0E9w6j/VhNs\""
 						},
 						{
 							"key": "rndr-id",
-							"value": "4008dabc-892d-4269"
+							"value": "e06c07ea-d314-48f3"
 						},
 						{
 							"key": "vary",
@@ -328,11 +328,11 @@
 						},
 						{
 							"key": "x-ratelimit-remaining",
-							"value": "93"
+							"value": "95"
 						},
 						{
 							"key": "x-ratelimit-reset",
-							"value": "1744912442"
+							"value": "1744915926"
 						},
 						{
 							"key": "x-render-origin-server",
@@ -348,7 +348,7 @@
 						},
 						{
 							"key": "CF-RAY",
-							"value": "931db8f5dbf2338a-DEL"
+							"value": "931e09e55c6833d2-DEL"
 						},
 						{
 							"key": "alt-svc",
@@ -356,7 +356,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"title\": \"New Task\",\n    \"description\": \"This is a task\",\n    \"status\": \"not started\",\n    \"priority\": \"medium\",\n    \"attachments\": [],\n    \"recurring\": \"none\",\n    \"dependencies\": [],\n    \"_id\": \"68013da7a0f136679f48cefb\",\n    \"createdAt\": \"2025-04-17T17:43:03.498Z\",\n    \"updatedAt\": \"2025-04-17T17:43:03.498Z\",\n    \"__v\": 0\n}"
+					"body": "{\n    \"title\": \"New Task\",\n    \"description\": \"This is a task\",\n    \"status\": \"not started\",\n    \"priority\": \"medium\",\n    \"attachments\": [],\n    \"recurring\": \"none\",\n    \"dependencies\": [],\n    \"_id\": \"68014a9afdc2380889f8a00b\",\n    \"createdAt\": \"2025-04-17T18:38:18.607Z\",\n    \"updatedAt\": \"2025-04-17T18:38:18.607Z\",\n    \"__v\": 0\n}"
 				}
 			]
 		},
@@ -391,7 +391,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Thu, 17 Apr 2025 17:43:17 GMT"
+							"value": "Thu, 17 Apr 2025 18:38:42 GMT"
 						},
 						{
 							"key": "Content-Type",
@@ -399,7 +399,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "180"
+							"value": "220"
 						},
 						{
 							"key": "Connection",
@@ -415,11 +415,11 @@
 						},
 						{
 							"key": "etag",
-							"value": "W/\"10d-i7E67U/HSCaT5IVGRXEEnYSvfCc\""
+							"value": "W/\"219-b4opBwGVcFxu3Or4EyurNoAM13g\""
 						},
 						{
 							"key": "rndr-id",
-							"value": "f8bd0c88-c606-46fa"
+							"value": "27ef9db3-9ca4-4592"
 						},
 						{
 							"key": "vary",
@@ -435,11 +435,11 @@
 						},
 						{
 							"key": "x-ratelimit-remaining",
-							"value": "92"
+							"value": "94"
 						},
 						{
 							"key": "x-ratelimit-reset",
-							"value": "1744912442"
+							"value": "1744915926"
 						},
 						{
 							"key": "x-render-origin-server",
@@ -455,7 +455,7 @@
 						},
 						{
 							"key": "CF-RAY",
-							"value": "931db9491daf338a-DEL"
+							"value": "931e0a777ebd33d2-DEL"
 						},
 						{
 							"key": "alt-svc",
@@ -463,7 +463,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "[\n    {\n        \"_id\": \"68013da7a0f136679f48cefb\",\n        \"title\": \"New Task\",\n        \"description\": \"This is a task\",\n        \"status\": \"not started\",\n        \"priority\": \"medium\",\n        \"attachments\": [],\n        \"recurring\": \"none\",\n        \"dependencies\": [],\n        \"createdAt\": \"2025-04-17T17:43:03.498Z\",\n        \"updatedAt\": \"2025-04-17T17:43:03.498Z\",\n        \"__v\": 0\n    }\n]"
+					"body": "[\n    {\n        \"_id\": \"68013da7a0f136679f48cefb\",\n        \"title\": \"New Task\",\n        \"description\": \"This is a task\",\n        \"status\": \"not started\",\n        \"priority\": \"medium\",\n        \"attachments\": [],\n        \"recurring\": \"none\",\n        \"dependencies\": [],\n        \"createdAt\": \"2025-04-17T17:43:03.498Z\",\n        \"updatedAt\": \"2025-04-17T17:43:03.498Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"68014a9afdc2380889f8a00b\",\n        \"title\": \"New Task\",\n        \"description\": \"This is a task\",\n        \"status\": \"not started\",\n        \"priority\": \"medium\",\n        \"attachments\": [],\n        \"recurring\": \"none\",\n        \"dependencies\": [],\n        \"createdAt\": \"2025-04-17T18:38:18.607Z\",\n        \"updatedAt\": \"2025-04-17T18:38:18.607Z\",\n        \"__v\": 0\n    }\n]"
 				}
 			]
 		},
@@ -498,7 +498,7 @@
 					"header": [
 						{
 							"key": "Date",
-							"value": "Thu, 17 Apr 2025 17:43:25 GMT"
+							"value": "Thu, 17 Apr 2025 18:38:55 GMT"
 						},
 						{
 							"key": "Content-Type",
@@ -522,11 +522,400 @@
 						},
 						{
 							"key": "etag",
-							"value": "W/\"2c-r7dO4EXEOAa48Dfc5avjPQosr6k\""
+							"value": "W/\"2c-Y0zzQbjuR9kpQldwUpVIRf4kzAY\""
 						},
 						{
 							"key": "rndr-id",
-							"value": "2582baae-3b87-49bb"
+							"value": "3d771f3b-9052-4255"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "100"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "93"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1744915926"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "931e0ac72cc633d2-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"total\": 2,\n    \"done\": 0,\n    \"pending\": 2,\n    \"overdue\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Project",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"New Project\",\n    \"description\": \"\",\n    \"members\": [\"68013d85a0f136679f48cef8\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{dev_url}}/api/projects"
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Project\",\n    \"description\": \"\",\n    \"members\": [\"68013d85a0f136679f48cef8\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{dev_url}}/api/projects"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 17 Apr 2025 18:39:23 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "142"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"d0-tKntvVeTH3HmHPN2AKKNm+Pid1g\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "b977fd05-ffff-44dc"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-powered-by",
+							"value": "Express"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "100"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "92"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1744915926"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "931e0b779bbb33d2-DEL"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"New Project\",\n    \"description\": \"\",\n    \"members\": [\n        \"68013d85a0f136679f48cef8\"\n    ],\n    \"tasks\": [],\n    \"_id\": \"68014adafdc2380889f8a011\",\n    \"createdAt\": \"2025-04-17T18:39:22.947Z\",\n    \"updatedAt\": \"2025-04-17T18:39:22.947Z\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Upload Avatar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"New Project\",\n    \"description\": \"\",\n    \"members\": [\"68013d85a0f136679f48cef8\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{local_url}}/api/profile/upload-avatar"
+			},
+			"response": [
+				{
+					"name": "Upload Avatar",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "avatar",
+									"type": "file",
+									"src": "postman-cloud:///1f00eee8-445d-4620-90a7-b8f0fe1f7837"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{local_url}}/api/profile/upload-avatar"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "100"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "99"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 18 Apr 2025 03:48:04 GMT"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1744948979"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "48"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"30-shiU4+TD4CYAHe5oeE2urBvH0vE\""
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"File Uploaded at 1744948084406.png\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Avatar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"New Project\",\n    \"description\": \"\",\n    \"members\": [\"68013d85a0f136679f48cef8\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{local_url}}/api/profile/avatar"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Project",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"New Project\",\n    \"description\": \"\",\n    \"members\": [\"68013d85a0f136679f48cef8\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{local_url}}/api/projects"
+			},
+			"response": [
+				{
+					"name": "Get Project",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Project\",\n    \"description\": \"\",\n    \"members\": [\"68013d85a0f136679f48cef8\"]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{dev_url}}/api/projects"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 17 Apr 2025 18:39:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "160"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"16f-J7dU9QTAf0PGG60DSAmBw+03wTM\""
+						},
+						{
+							"key": "rndr-id",
+							"value": "7538b130-c9a3-44ee"
 						},
 						{
 							"key": "vary",
@@ -546,7 +935,7 @@
 						},
 						{
 							"key": "x-ratelimit-reset",
-							"value": "1744912442"
+							"value": "1744915926"
 						},
 						{
 							"key": "x-render-origin-server",
@@ -562,7 +951,7 @@
 						},
 						{
 							"key": "CF-RAY",
-							"value": "931db97a2f42338a-DEL"
+							"value": "931e0c0b2b7533d2-DEL"
 						},
 						{
 							"key": "alt-svc",
@@ -570,7 +959,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\n    \"total\": 1,\n    \"done\": 0,\n    \"pending\": 1,\n    \"overdue\": 0\n}"
+					"body": "[\n    {\n        \"_id\": \"680148da28b27241199fcf23\",\n        \"name\": \"New Project\",\n        \"description\": \"\",\n        \"members\": [],\n        \"tasks\": [],\n        \"createdAt\": \"2025-04-17T18:30:50.388Z\",\n        \"updatedAt\": \"2025-04-17T18:30:50.388Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"68014adafdc2380889f8a011\",\n        \"name\": \"New Project\",\n        \"description\": \"\",\n        \"members\": [],\n        \"tasks\": [],\n        \"createdAt\": \"2025-04-17T18:39:22.947Z\",\n        \"updatedAt\": \"2025-04-17T18:39:22.947Z\",\n        \"__v\": 0\n    }\n]"
 				}
 			]
 		}
@@ -601,6 +990,16 @@
 		{
 			"key": "dev_url",
 			"value": "https://task-management-7wop.onrender.com",
+			"type": "string"
+		},
+		{
+			"key": "token",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MDFjYTM0OWIwZWFiNjQ2ZWM0MDVlOCIsImlhdCI6MTc0NDk0Nzc2OSwiZXhwIjoxNzQ1MDM0MTY5fQ.6NefARD9O6lnYO9qP0i_ZjfZsWug5L0QAFT78LmtTeg",
+			"type": "string"
+		},
+		{
+			"key": "local_url",
+			"value": "http://localhost:3100",
 			"type": "string"
 		}
 	]
