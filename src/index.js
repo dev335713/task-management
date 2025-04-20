@@ -11,6 +11,7 @@ const authRoutes = require('./routes/authRoutes');
 const taskRoutes = require('./routes/taskRoutes');
 const projectRoutes = require('./routes/projectRoutes');
 const statsRoutes = require('./routes/statsRoutes');
+const profileRoutes = require("./routes/profileRoutes");
 
 const app = express();
 const setupSwaggerDocs = require('./config/swagger');
@@ -25,6 +26,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tasks', tokenValidater, taskRoutes);
 app.use('/api/projects', tokenValidater, projectRoutes);
 app.use('/api/stats', tokenValidater, statsRoutes);
+app.use('/api/profile', tokenValidater, profileRoutes);
 setupSwaggerDocs(app);
 
 app.get('/', (req, res) => res.send('Task Manager API'));
